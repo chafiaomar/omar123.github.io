@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon CV Interactif</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- React -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="top-bar">
+
+    <img src="profile.jpg" alt="photo de profil" class="avatar">
+
+    <h1>Omar Chafiâ</h1>
+
+    <p>Étudiant en Informatique</p>
+
+    <div class="links">
+      <a href="#">chafiaomar404@gmail.com </a>
+      <a href="#"> GitHub</a>
+    </div>
+
+  </header>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+
+    <h2>À propos</h2>
+
+    <p> Je suis étudiant en informatique, passionné par le développement web et les nouvelles technologies. Actuellement, je développe mes compétences en HTML, CSS, JavaScript ainsi que React et jQuery. Mon objectif est de devenir un développeur capable de créer des applications web modernes, performantes et interactives.</p>
+
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills">
+
+    <h2>Compétences</h2>
+
+<div class="skill">
+  HTML
+  <div class="bar" data-level="80"></div>
+</div>
+
+<div class="skill">
+  CSS
+  <div class="bar" data-level="70"></div>
+</div>
+
+<div class="skill">
+  C
+  <div class="bar" data-level="60"></div>
+</div>
+
+<div class="skill">
+  C++
+  <div class="bar" data-level="60"></div>
+</div>
+
+<div class="skill">
+  Javascript
+  <div class="bar" data-level="50"></div>
+</div>
+
+<div class="skill">
+  SQL
+  <div class="bar" data-level="55"></div>
+</div>
+  </section>
+
+  <!-- ================= FORMATION ================= -->
+  <section id="education">
+
+    <h2>Formation</h2>
+<ul class="timeline">
+
+  <!-- Bac -->
+  <li>
+          2024 - Baccalauréat Sciences Physiques (PC)<br>
+          Lycée Collégial ED Dakhla<br>
+          Obtention du baccalauréat en sciences physiques
+  </li>
+
+  <!-- Université année 1 -->
+  <li>
+          2024 - 2025 : Université Cadi Ayyad - Faculté des Sciences Semlalia (Marrakech)<br>
+          Filière MIP (Mathématiques, Informatique, Physique)<br>
+          Étude des bases en mathématiques, physique et informatique
+  </li>
+
+  <!-- Université année 2 (actuelle) -->
+  <li>
+          2025 - Présent : Faculté des Sciences Semlalia (Marrakech)<br>
+          Filière Informatique<br>
+          Approfondissement en programmation, développement web et bases de données
+  </li>
+
+</ul>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+<section id="projects">
+
+  <h2>Projets</h2>
+
+  <!--  Projet Web -->
+  <div class="project">
+
+    <h3> Site Web sur le Maroc</h3>
+
+    <p>
+      Développement d’un site web présentant les monuments historiques du Maroc,
+      ainsi que la culture, les plats traditionnels et les vêtements marocains.
+    </p>
+
+    <p>
+            Technologies : HTML, CSS, JavaScript
+    </p>
+
+  </div>
+
+  <!--  Projet C++ -->
+  <div class="project">
+
+    <h3> Jeu en C++</h3>
+
+    <p>
+      Création d’un petit jeu en langage C++ dans le cadre du semestre S4,
+      utilisant les notions de programmation (conditions, boucles, fonctions).
+    </p>
+
+    <p>
+            Technologies : C++
+    </p>
+
+  </div>
+
+  <!--  TP Web -->
+  <div class="project">
+
+    <h3> Travaux Pratiques Web</h3>
+
+    <p>
+      Réalisation de plusieurs petits sites web durant le semestre S4,
+      permettant de pratiquer et améliorer les compétences en HTML, CSS et JavaScript.
+    </p>
+
+    <p>
+            Technologies : HTML, CSS, JavaScript
+    </p>
+
+  </div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+<section id="contact">
+
+  <h2>Contact</h2>
+
+  <div class="contact-info">
+
+    <p> Email : chafiaomar404@gmail.com</p>
+
+    <p> GitHub : https://github.com/chafiaomar</p>
+
+  </div>
+
+  <form id="contactForm">
+
+    <input type="text" placeholder="Nom complet" required>
+
+    <input type="email" placeholder="Votre email" required>
+
+    <textarea placeholder="Ton message" required></textarea>
+
+    <button type="submit">Envoyer</button>
+
+  </form>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* ===== GENERAL ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+/* ===== HEADER ===== */
+.top-bar {
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 30px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.links a {
+  color: #1abc9c;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  width: 80%;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* ===== TITLES ===== */
+h2 {
+  border-left: 5px solid #1abc9c;
+  padding-left: 10px;
+}
+
+/* ===== SKILLS ===== */
+.skill {
+  margin: 10px 0;
+}
+
+.bar {
+  width: 0;
+  height: 10px;
+  background: #1abc9c;
+  border-radius: 5px;
+}
+
+/* ===== TIMELINE ===== */
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #ecf0f1;
+  border-radius: 5px;
+}
+
+/* ===== PROJECTS ===== */
+.project {
+  background: #f9f9f9;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 5px solid #1abc9c;
+  border-radius: 5px;
+}
+
+/* ===== CONTACT ===== */
+.contact-info p {
+  margin: 5px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a085;
+}
+
+
+/* ================= ANIMATION BASE ================= */
+section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-in-out;
+}
+
+/* ================= SKILL BAR CONTAINER (important) ================= */
+.bar {
+  width: 0;
+  height: 10px;
+  background: #1abc9c;
+  border-radius: 5px;
+  transition: 1s ease;
+}
